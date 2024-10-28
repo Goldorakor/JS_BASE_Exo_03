@@ -33,4 +33,28 @@ classList fournit plusieurs méthodes pratiques :
     toggle(className) : Ajoute la classe si elle n'est pas présente, sinon la supprime.
     contains(className) : Vérifie si l'élément possède une classe spécifique et renvoie true ou false.
 
+
+en HTML, un élément peut avoir plusieurs classes ! 
+Tu peux spécifier plusieurs classes pour un même élément en les séparant par des espaces dans l'attribut class. 
+Cela te permet de combiner plusieurs styles et comportements CSS.
+
+
+*/
+
+/*
+Notre schéma logique :
+
+
+if (this.classList.contains('active')) {
+    // Rétablir les propriétés initiales
+    ...
+    this.classList.remove('active'); // Retire la classe 'active'
+} else {
+    // Appliquer les nouvelles propriétés
+    ...
+    this.classList.add('active'); // Ajoute la classe 'active'
+}
+
+
+
 */
