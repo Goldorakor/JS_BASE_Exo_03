@@ -54,14 +54,10 @@ h3 {
     width: 200px;
     height: 200px;
     cursor: pointer;
-    background-color: #50945d;
+    background-color: #50945c93;
     color: #ffffff;
+    font-size: 60px;
+    transition: transform 0.5s, background-color 0.5s; /* rapidité des transformations */
 }
 
-/*
-.resultat {
-    margin-top: 20px;
-    font-size: 16px;
-    text-align: center;
-}
-*/
+
