@@ -1,0 +1,67 @@
+* { 
+    margin: 0;  /* marge externe : raccourci m0 */
+    padding: 0;  /* marge interne : raccourci p0 */
+    box-sizing: border-box;  /* éléments seront traités avec les bordures qu'on leur applique */
+}
+
+#wrapper {
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction : column;
+    min-height: 100vh;
+    width: 80vw;
+    justify-content : center;
+    align-items : center;
+    gap : 20px;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+
+
+h2 {
+    margin: 20px;
+}
+
+
+h3 {
+    margin: 20px;
+}
+
+
+
+.container-haut {
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items : center;
+    width: 100%;
+    gap : 20px
+}
+
+.container-bas {
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items : center;
+    width: 100%;
+    gap : 20px
+}
+
+.carre {
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-color: #50945d;
+    color: #ffffff;
+}
+
+/*
+.resultat {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+*/
